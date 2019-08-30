@@ -10,7 +10,7 @@ git push
 set -e
 
 # build
-npm run build
+ember build --env production
 
 # navigate into the build output directory
 cd dist
